@@ -6,20 +6,20 @@
 
 ## Features
 
-- ✅ **Upload CSV reviews** (e.g., from a restaurant)
-- 💬 **Ask questions** like:
+-  **Upload CSV reviews** (e.g., from a restaurant)
+-  **Ask questions** like:
   - "How is the ambience of the restaurant?"
   - "What do people say about the service?"
-- 🧠 **Aspect-based sentiment analysis** (Food, Ambience, Service, Price)
-- 📊 **Interactive dashboards** with sentiment trends and word clouds
-- 🌐 **Multilingual support** for reviews
-- 🤖 **Local LLMs (e.g., Mistral, LLaMA3)** with Ollama – **runs offline**
+-  **Aspect-based sentiment analysis** (Food, Ambience, Service, Price)
+-  **Interactive dashboards** with sentiment trends and word clouds
+-  **Multilingual support** for reviews
+-  **Local LLMs (e.g., Mistral)** with Ollama – **runs offline**
   
 ## Future enhancements-
   
-- 🔍 **Live web scraping** (Zomato/Yelp support planned)
-- 📄 **Generate smart suggestions** to improve the business
-- 🔐 User portal (coming soon): Upload datasets, save insights, generate reports
+-  **Live web scraping** (Zomato/Yelp support planned)
+-  **Generate smart suggestions** to improve the business
+-  User portal (coming soon): Upload datasets, save insights, generate reports
 
 ---
 
