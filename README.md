@@ -11,6 +11,7 @@
   - "How is the ambience of the restaurant?"
   - "What do people say about the service?"
 -  **Aspect-based sentiment analysis** (Food, Ambience, Service, Price)
+-  **Interactive ChatBot UI
 -  **Interactive dashboards** with sentiment trends and word clouds
 -  **Multilingual support** for reviews
 -  **Local LLMs (e.g., Mistral)** with Ollama – **runs offline**
