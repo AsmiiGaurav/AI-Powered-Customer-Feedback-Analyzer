@@ -34,5 +34,6 @@
 | Dashboard           | Plotly, Matplotlib        |
 | CSV Parsing         | Pandas, LangChain CSVLoader |
 | PDF Reporting       | reportlab / pdfkit        |
+| User Interface      | Streamlit                 |
 
 
