@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Sakura Sushi Bar",
+    "cuisine": "Japanese",
+    "rating": 4.6,
+    "price_range": "$$",
+    "address": "123 Sunset Blvd, Los Angeles, CA",
+    "phone": "+1-310-555-1234",
+    "website": "https://sakura-sushi.com",
+    "description": "Authentic Japanese sushi and sashimi with fresh seafood imported daily.",
+    "image": "assets/images/restaurants/Sakura_Sushi_bar.png",
+    "sample_reviews": [
+      "The sushi was incredibly fresh and delicious!",
+      "Cozy ambiance and excellent service.",
+      "Best sushi bar in Los Angeles!"
+    ]
+  },
+  {
+    "name": "Burger Junction",
+    "cuisine": "American",
+    "rating": 4.3,
+    "price_range": "$",
+    "address": "456 Michigan Ave, Chicago, IL",
+    "phone": "+1-773-555-5678",
+    "website": "https://burgerjunction.com",
+    "description": "Classic American-style burgers with gourmet toppings and hand-cut fries.",
+    "image": "assets/images/restaurants/Burger_Junction.jpg",
+    "sample_reviews": [
+      "Juiciest burger I’ve ever had!",
+      "Affordable and tasty, highly recommend.",
+      "Loved the loaded fries!"
+    ]
+  },
+  {
+    "name": "Spice Garden",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "price_range": "$$",
+    "address": "789 Market St, San Francisco, CA",
+    "phone": "+1-415-555-9876",
+    "website": "https://spicegarden.com",
+    "description": "Traditional Indian flavors with a modern twist, specializing in curries and tandoori dishes.",
+    "image": "assets/images/restaurants/Spice_Garden.jpg",
+    "sample_reviews": [
+      "Amazing butter chicken!",
+      "Rich flavors and authentic spices.",
+      "Friendly staff and great vegetarian options."
+    ]
+  },
+  {
+    "name": "Tony's Pizzeria",
+    "cuisine": "Italian",
+    "rating": 4.7,
+    "price_range": "$$",
+    "address": "1010 Pizza St, New York, NY",
+    "phone": "+1-212-555-1234",
+    "website": "https://tonyspizzeria.com",
+    "description": "Classic Neapolitan pizza with a variety of toppings and a cozy atmosphere.",
+    "image": "assets/images/restaurants/Tonys_Pizzeria.jpg",
+    "sample_reviews": [
+      "Best pizza in NYC!",
+      "The crust is perfect and the toppings are fresh.",
+      "Love the Margherita pizza!"
+    ]
+  },
+  {
+    "name": "Le Petit Cafe",
+    "cuisine": "French",
+    "rating": 4.4,
+    "price_range": "$$",
+    "address": "2020 Cafe Rd, Boston, MA",
+    "phone": "+1-617-555-6789",
+    "website": "https://lepetitcafe.com",
+    "description": "Charming French cafe offering pastries, coffee, and light meals in a cozy setting.",
+    "image": "assets/images/restaurants/Le_Petit_Cafe.jpeg",
+    "sample_reviews": [
+      "Lovely atmosphere and great coffee.",
+      "The pastries are to die for!",
+      "A hidden gem in the city."
+    ]
+  }
+]
