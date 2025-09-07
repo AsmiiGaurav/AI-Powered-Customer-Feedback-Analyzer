@@ -43,8 +43,10 @@ AI-Powered-Customer-Feedback-Analyzer/
 ```bash
 git clone https://github.com/AsmiiGaurav/AI-Powered-Customer-Feedback-Analyzer.git
 cd AI-Powered-Customer-Feedback-Analyzer
+```
 
-### 3) Clone
+### 3) Setup Virtual Enviornment
+
 python -m venv .venv
 # macOS/Linux
 source .venv/bin/activate
@@ -52,33 +54,41 @@ source .venv/bin/activate
 .venv\Scripts\activate
 
 ### 4) Install Dependencies
+
 pip install --upgrade pip
 pip install -r requirements.txt
 
 5) One-time resource setup (recommended)
+
 Some analyses require language models/corpora.
 # Multilingual resources (tokenizers, language data, etc.)
 python setup_multilingual.py
 
 # Sentiment resources/models
+
 python setup_sentiment.py
 
-6) Run the app
+### 6) Run the app
+   
 streamlit run app_multilingual2.py
 
-📥 Input Data
+###  Input Data
+
 Use the included reviews.csv as a starting point to test the pipeline.
 You can replace it with your own CSV containing a column of free-text reviews.
 
-CSV Tips
+### CSV Tips
+
 Keep a header row (e.g., review).
 Ensure your file is UTF-8 encoded for multilingual text.
 
-🧪 Testing
+### Testing
+
 Run basic tests (if you’ve installed pytest):
 pytest -k sentiment -q
 
-🙏 Acknowledgments
+### Acknowledgments
+
 Thanks to the open-source Python ecosystem and NLP tooling that make rapid prototyping of multilingual sentiment analysis possible.
 
 
