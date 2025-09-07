@@ -31,7 +31,7 @@ Analyze customer reviews at scale with an easy, interactive UI. This project foc
 | `test_sentiment.py`     | Basic tests for sentiment pipeline                 |
 
 
-(See the repo file listing for the current contents.) :contentReference[oaicite:6]{index=6}
+(See the repo file listing for the current contents.)
 
 ---
 
