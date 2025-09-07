@@ -1,4 +1,4 @@
-# RestauratLens (AI-Powered Customer Feedback Analyzer)
+# RestaurantLens (AI-Powered Customer Feedback Analyzer)
 
 Analyze customer reviews at scale with an easy, interactive UI. This project focuses on **sentiment analysis** and **multilingual support**, and includes example data and setup scripts to help you get running quickly. The app supports batch analysis from CSV files and provides fast iteration for experiments and demos. :contentReference[oaicite:0]{index=0}
 
