@@ -17,17 +17,19 @@ Analyze customer reviews at scale with an easy, interactive UI. This project foc
 
 ## 🗂️ Repository Structure
 
-AI-Powered-Customer-Feedback-Analyzer/
-├─ assets/ # Static assets (images, icons, etc.)
-├─ data/ # (Optional) extra datasets or artifacts
-├─ pages/ # Multi-page app subpages
-├─ venv/ # (If present) local virtual environment (not required)
-├─ app_multilingual2.py # Main application entry point
-├─ requirements.txt # Python dependencies
-├─ reviews.csv # Sample input data (customer reviews)
-├─ setup_multilingual.py # Helper: download/setup multilingual resources
-├─ setup_sentiment.py # Helper: prepare sentiment resources/models
-└─ test_sentiment.py # Basic tests for sentiment pipeline
+| File/Folder             | Description                                        |
+|--------------------------|----------------------------------------------------|
+| `assets/`               | Static assets (images, icons, etc.)                |
+| `data/`                 | (Optional) extra datasets or artifacts             |
+| `pages/`                | Multi-page app subpages                            |
+| `venv/`                 | Local virtual environment (not required)           |
+| `app_multilingual2.py`  | Main application entry point                        |
+| `requirements.txt`      | Python dependencies                                |
+| `reviews.csv`           | Sample input data (customer reviews)               |
+| `setup_multilingual.py` | Helper: download/setup multilingual resources      |
+| `setup_sentiment.py`    | Helper: prepare sentiment resources/models         |
+| `test_sentiment.py`     | Basic tests for sentiment pipeline                 |
+
 
 (See the repo file listing for the current contents.) :contentReference[oaicite:6]{index=6}
 
