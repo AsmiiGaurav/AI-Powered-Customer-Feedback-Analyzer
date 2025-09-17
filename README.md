@@ -79,6 +79,49 @@ streamlit run app_multilingual2.py
 Use the included reviews.csv as a starting point to test the pipeline.
 You can replace it with your own CSV containing a column of free-text reviews.
 
+## Sentiment Analysis Score Explanation
+
+The format you're seeing: **Overall Sentiment: Positive (0.93) [pos: 0.72, neg: 0.00, neu: 0.28]** represents two different types of scores from the sentiment analysis system:
+
+### 1. Overall Sentiment Score (0.93)
+- **What it is**: The final confidence score for the predicted sentiment label
+- **How it's calculated**: This comes from the hybrid method that combines multiple sentiment analysis approaches:
+  - VADER (40% weight)
+  - TextBlob (30% weight) 
+  - Transformer model (30% weight)
+- **Range**: 0.0 to 1.0 (higher = more confident)
+- **Purpose**: Indicates how confident the system is in its "Positive" prediction
+
+### 2. Component Scores [pos: 0.72, neg: 0.00, neu: 0.28]
+- **What they are**: Raw sentiment component scores from the underlying models (primarily VADER)
+- **pos: 0.72**: Proportion of positive sentiment detected
+- **neg: 0.00**: Proportion of negative sentiment detected  
+- **neu: 0.28**: Proportion of neutral sentiment detected
+- **Range**: Each component is 0.0 to 1.0, and they typically sum to 1.0
+
+### Why the Difference?
+The overall confidence (0.93) is **higher** than the positive component (0.72) because:
+
+1. **Different Calculation Methods**: 
+   - Overall confidence uses weighted voting across multiple models
+   - Component scores come from individual model outputs (mainly VADER)
+
+2. **Confidence Boosting**: 
+   - When multiple models agree on "Positive", the system becomes more confident
+   - The hybrid approach amplifies confidence when there's consensus
+
+3. **Mathematical Transformation**:
+   - The final confidence may be calculated using compound scores or weighted averages
+   - This can result in higher confidence than individual components
+
+### Example Breakdown:
+- **Text Analysis**: "This restaurant is amazing!" 
+- **VADER says**: 72% positive, 0% negative, 28% neutral
+- **TextBlob agrees**: Positive sentiment
+- **Transformer agrees**: Positive sentiment
+- **Final Result**: 93% confident it's positive (because all methods agree)
+
+This dual scoring system provides both granular component analysis and a robust overall prediction confidence.
 ### CSV Tips
 
 Keep a header row (e.g., review).
