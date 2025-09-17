@@ -74,6 +74,8 @@ python setup_sentiment.py
    
 streamlit run app_multilingual2.py
 
+Link to video of working prototype - https://drive.google.com/file/d/1fbm04l6GmMCi04gTWuRvpGfRx3wVAGiQ/view?usp=sharing
+
 ###  Input Data
 
 Use the included reviews.csv as a starting point to test the pipeline.
