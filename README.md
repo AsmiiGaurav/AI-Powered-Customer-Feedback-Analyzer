@@ -11,7 +11,7 @@ Analyze customer reviews at scale with an easy, interactive UI. This project foc
 - **Batch input**: analyze multiple reviews from the included `reviews.csv`. :contentReference[oaicite:3]{index=3}  
 - **Multi-page UI**: organized app pages for a cleaner experience (see `pages/`). :contentReference[oaicite:4]{index=4}
 
-> **Tech stack:** Python (100%). The repository is primarily Python code. :contentReference[oaicite:5]{index=5}
+> **Tech stack:** Python (100%). The repository is primarily Python code. 
 
 ---
 
